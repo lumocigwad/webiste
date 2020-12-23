@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="typed-strings" >
+    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+    <p>It <em>types</em> out sentences.</p>
+</div>
+<span id="typed"></span>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings'
+  });
+  var typed = new Typed(".element", {
+  strings: ["This is a JavaScript library", "This is an ES6 module"],
+  smartBackspace: true // Default value
+});
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

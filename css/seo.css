@@ -1,0 +1,112 @@
+/* SEO Agency Divi Layout Homepage Css Code
+** Watch the install video here: https://www.youtube.com/watch?v=phCc4A_UFP8 
+** Product Built By Divi Den - https://webdesign101.berlin/divi-den/
+** Get the latest layout here: https://webdesign101.berlin/product/law-firm-divi-builder-layout-homepage/
+** Get Support Here https://webdesign101.berlin/divi-den/support/  
+*/
+
+.seo6 .et_pb_column_1_2 .et_pb_image img {
+    display: block !important;
+    margin: 0 auto;
+}
+
+.seo6 .et_pb_column_1_2 .et_pb_image {
+    background-image: none !important;
+}
+
+.seo6 .et_pb_column_1_2 .et_pb_image,
+.seo6 .et_pb_column_1_2 .et_pb_image img {
+    height: auto !important;
+}
+
+.seo3 .et_pb_column_1_2 .et_pb_image img {
+    display: block !important;
+    margin: 0 auto;
+}
+
+.seo3 .et_pb_column_1_2 .et_pb_image {
+    background-image: none !important;
+}
+
+.seo input.input.et_pb_contact_captcha {
+    color: #000000 !important;
+    position: relative;
+    padding: 0.7em 1em;
+    border: 2px solid #000000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.seo .et_pb_contact_right {
+    color: #000000;
+}
+
+@media all and (max-width: 980px) {
+    .seo .et_pb_column {
+        float: none !important;
+    }
+
+    .seo p,
+    .seo h1,
+    .seo h2,
+    .seo h3,
+    .seo h4,
+    .seo h5,
+    .seo img,
+    .seo .et_pb_main_blurb_image,
+    .seo .et_pb_blurb_6 .et_pb_main_blurb_image,
+    .seo .et_pb_blurb_7 .et_pb_main_blurb_image,
+    .seo .et_pb_blurb_8 .et_pb_main_blurb_image,
+    .seo .et_pb_pricing_tables_0 .et_pb_pricing_heading h2,
+    .seo .et_pb_pricing_tables_0 .et_pb_pricing_content_top,
+    .seo .et_pb_pricing_tables_0 .et_pb_pricing_content,
+    .seo .et_pb_pricing_tables_0 ul.et_pb_pricing li {
+        text-align: center !important;
+    }
+
+    .seo3 .et_pb_column_1_2 .et_pb_image img {
+        display: block;
+    }
+
+    .seo3 .et_pb_column_1_2 .et_pb_image {
+        height: auto !important;
+        background-image: none !important;
+    }
+
+    #page-container .seo6 {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .seo #circle .et_pb_column_1_4 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 980px) and (min-width: 768px) {
+    .seo .et_pb_column .et_pb_pricing_table {
+        width: 33% !important;
+    }
+
+    .seo .et_pb_column .et_pb_pricing_table:nth-child(2n+1) {
+        clear: inherit;
+    }
+
+    .seo .et_pb_column .et_pb_pricing_table:nth-child(n+3) {
+        margin-top: 30px;
+    }
+
+    .seo .et_pb_row {
+        position: relative;
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .seo3 .et_pb_column_1_2 .et_pb_image img {
+        height: auto !important;
+    }
+}

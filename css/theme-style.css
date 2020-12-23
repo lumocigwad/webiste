@@ -1,0 +1,119 @@
+/*
+Theme Name: Divi child theme
+Template: Divi
+*/
+
+@import url("css/main-style.css");
+
+/* YOUR CSS EDITS GO BELOW THIS LINE AND AND CSS RULES YOU MAKE HERE WILL OVERIDE THE MASTER DIVI THEME CSS RULES */
+
+@import url("/computercastleswebsite/css/Master-1-of-8-divi-person-module.css");
+@import url("/computercastleswebsite/css/MASTER-Blurbs-Divi-Layout-Kit-CSS.css");
+@import url("/computercastleswebsite/css/MASTER-divi-contact-form-kit.css");
+@import url("/computercastleswebsite/css/event.css");
+@import url("/computercastleswebsite/css/seo.css");
+@import url("/computercastleswebsite/css/demo-dentist.css");
+@import url("/computercastleswebsite/css/demo-personal-trainer.css");
+@import url("/computercastleswebsite/css/demo-high-school.css");
+@import url("/computercastleswebsite/css/demo-ngo.css");
+@import url("/computercastleswebsite/css/demo-hairdresser.css");
+@import url("/computercastleswebsite/css/demo-band.css");
+
+/* @import url("css/freebie-multipurpose-homepage.css"); */
+
+.red-divider h3 {
+    line-height: 150% !important
+}
+
+
+/******** Blurbs ***********/
+
+.blurb_click {
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.blurb_click {
+    vertical-align: bottom;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    -o-transition: -o-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.blurb_click:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* --------------animation for team ------------------*/
+
+.blurb_about .et_pb_blurb h4 {
+    -webkit-transform: translate3d(0, 88px, 0);
+    transform: translate3d(0, 88px, 0);
+    -webkit-transition: -webkit-transform .35s;
+    transition: transform .35s;
+}
+
+.blurb_about .et_pb_blurb_content {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+    -webkit-transition: opacity .1s, -webkit-transform .35s;
+    transition: opacity .1s, transform .35s;
+    filter: alpha(opacity=0);
+    opacity: 0 !important;
+    padding-top: 5%;
+    zoom: 1;
+}
+
+.blurb_about .et_pb_blurb_content {
+    position: relative;
+    height: 100% !important;
+}
+
+.blurb_about .et_pb_blurb_content:hover {
+    padding: 8% 12%;
+    position: relative;
+}
+
+.blurb_about {
+    transition: .3s;
+}
+
+.blurb_about:hover {
+    background: #fafafa;
+}
+
+.blurb_about:hover h4 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    font-size: 22px !important;
+}
+
+.blurb_about .et_pb_blurb_content:hover {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transition-delay: .05s;
+    -webkit-transition-duration: .35s;
+    filter: alpha(opacity=1);
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0);
+    transition-delay: .05s;
+    transition-duration: .35s;
+    zoom: 1;
+}
+
+
+/*pricing tabel responsive fix*/
+
+@media (max-width: 980px) {
+    .et_pb_column .et_pb_pricing_table {
+        width: 100% !important;
+        margin: 0 0 30px !important;
+    }
+}
